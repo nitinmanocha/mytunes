@@ -1,0 +1,21 @@
+{
+  "name": "mytunes",
+  "version": "1.0.0",
+  "description": "My own Music Player",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "musicplayer",
+    "mytunes",
+    "stream",
+    "pipes"
+  ],
+  "author": "nitinmanocha.in",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

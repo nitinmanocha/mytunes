@@ -32,12 +32,6 @@ var port = process.env.PORT || 3000;
 	
 	});
 	});
-	
-//	following is the code for downloading music files, note that the code remains same except that we add 2 headers viz
-// Content-disposition and Content-Type which forces the chrome browser to force download rather than playing the media
-// Note that the following is tested with google chrome and it may work differently in Mozilla and Opera based on your 
-// installed plugins.
-
 
 
 app.get('/download', function(req,res){
